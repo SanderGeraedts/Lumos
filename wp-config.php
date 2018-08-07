@@ -22,7 +22,7 @@ require __DIR__ . '/wp-content/vendor/autoload.php';
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'starter' );
+define( 'DB_NAME', 'lumos' );
 
 /** MySQL database username */
 define( 'DB_USER', 'homestead' );
@@ -41,9 +41,9 @@ define( 'DB_COLLATE', '' );
 
 define( 'WP_CONTENT_DIR', __DIR__ . '/wp-content' );
 
-define( 'WP_HOME', 'http://starter.test' );
+define( 'WP_HOME', 'http://lumos.test' );
 
-define( 'WP_SITEURL', 'http://starter.test' );
+define( 'WP_SITEURL', 'http://lumos.test' );
 
 
 /**#@+

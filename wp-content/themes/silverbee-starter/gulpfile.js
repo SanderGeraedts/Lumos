@@ -1,5 +1,5 @@
 //Change to own URL
-const proxy     = 'http://starter.app/';
+const proxy     = 'http://lumos.test/';
 
 var gulp        = require('gulp');
 var sass        = require('gulp-sass');
@@ -38,7 +38,12 @@ gulp.task('img', function () {
         .pipe(gulp.dest('./dist/img/'))
 });
 
-gulp.task('default', ['sass', 'js', 'img']);
+gulp.task('fonts', function () {
+    gulp.src('fonts/*.{otf,ttf}')
+        .pipe(gulp.dest('./dist/fonts/'))
+});
+
+gulp.task('default', ['sass', 'js', 'img', 'fonts']);
 
 gulp.task('watch', function () {
     browserSync.init({

@@ -6,7 +6,14 @@
  */
 
 get_header(); ?>
+    <style>
+        .banner {
+            background-image: url("<?php echo get_template_directory_uri() . '/dist/img/banner-pic.jpg'; ?>");
+        }
+    </style>
+    <div class="banner">
 
+    </div>
     <div id="primary" class="content-area">
         <main id="main" class="site-main" role="main">
             <section class="front-page">

@@ -1,4 +1,7 @@
-// @import url('https://fonts.googleapis.com/');
+@font-face {
+  font-family: Amadeust;
+  src: url("../fonts/AmadeustRegular.otf");
+}
 
 $font__main: sans-serif;
 $font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
