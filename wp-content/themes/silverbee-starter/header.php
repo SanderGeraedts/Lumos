@@ -21,21 +21,21 @@
 <body <?php body_class(); ?>>
 <nav id="site-navigation" class="main-navigation" role="navigation">
     <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<?php
-		wp_nav_menu( array(
-			'theme_location' => 'menu-1',
-			'menu_id'        => 'primary-menu',
-		) );
-		?>
-        <ul class="social-media-icons">
-            <a href="https://www.youtube.com/channel/UCuneSt2ocQCjdEWOEd3lx3A" target="_blank" class="social-icon"><i
-                        class="fa fa-youtube"></i></a>
-            <a href="https://www.linkedin.com/company/kien-innovatiemeesters" target="_blank" class="social-icon"><i
-                        class="fa fa-facebook"></i></a>
-            <a href="https://twitter.com/kien_innovatie" target="_blank" class="social-icon"> <i
-                        class="fa fa-instagram"></i></a>
-        </ul>
+        <div class="inner">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			<?php
+			wp_nav_menu( array(
+				'theme_location' => 'menu-1',
+				'menu_id'        => 'primary-menu',
+			) );
+			?>
+            <ul class="social-media-icons">
+                <a href="https://www.facebook.com/Lumos-Eindhoven-Quidditch-754006641437774/" class="social-icon"><i
+                            class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/lumoseindhoven/" class="social-icon"> <i
+                            class="fa fa-instagram"></i></a>
+            </ul>
+        </div>
     </div>
 
 </nav>
