@@ -15,7 +15,7 @@
     <meta charset="<?php bloginfo( 'charset' ); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="http://gmpg.org/xfn/11">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 	<?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -31,9 +31,9 @@
 			?>
             <ul class="social-media-icons">
                 <a href="https://www.facebook.com/Lumos-Eindhoven-Quidditch-754006641437774/" class="social-icon"><i
-                            class="fa fa-facebook"></i></a>
+                            class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/lumoseindhoven/" class="social-icon"> <i
-                            class="fa fa-instagram"></i></a>
+                            class="fab fa-instagram"></i></a>
             </ul>
         </div>
     </div>

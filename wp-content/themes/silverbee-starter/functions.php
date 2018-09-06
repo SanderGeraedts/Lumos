@@ -46,6 +46,9 @@ if ( ! function_exists( 'silverbee_starter_setup' ) ) :
 		register_nav_menus( array(
 			'menu-1' => esc_html__( 'Primary', 'silverbee-starter' ),
 		) );
+		register_nav_menus( array(
+			'footer-menu-1' => esc_html__( 'Footer 1', 'silverbee-starter' ),
+		) );
 
 		/*
 		 * Switch default core markup for search form, comment form, and comments
@@ -108,8 +111,6 @@ function silverbee_starter_scripts() {
 	wp_enqueue_style( 'silverbee-starter-style-bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css' );
 	wp_enqueue_script( 'silverbee-starter-script-popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', array( 'jquery' ), 1.12, true );
 	wp_enqueue_script( 'silverbee-starter-script-bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js', array( 'jquery' ), 4.0, true );
-
-	wp_enqueue_style( 'silverbee-starter-style-fontAwesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' );
 
 	wp_enqueue_script( 'silverbee-starter-script', get_template_directory_uri() . '/js/silverbee.js', array( 'jquery' ), null  );
 
