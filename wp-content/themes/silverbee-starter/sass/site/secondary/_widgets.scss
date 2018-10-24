@@ -1,8 +1,43 @@
 .widget {
-	margin: 0 0 1.5em;
+  margin: 0 0 1.5em;
 
-	/* Make sure select elements fit in widgets. */
-	select {
-		max-width: 100%;
-	}
+  /* Make sure select elements fit in widgets. */
+  select {
+    max-width: 100%;
+  }
+}
+
+aside.widget-area {
+  //margin: calc(28px * 0.67);
+  padding: 20px 40px;
+  margin-bottom: 15px;
+  background-color: #FFE0E0;
+
+  .cta-button {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  aside.widget-area {
+    padding: 20px;
+
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  aside.widget-area {
+    h2 {
+      font-size: 1.25rem;
+    }
+
+    .cta-button {
+      a {
+        font-size: 12pt;
+      }
+    }
+  }
 }

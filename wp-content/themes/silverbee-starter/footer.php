@@ -33,15 +33,6 @@
 						?>
                     </section>
                 </div>
-                <div class="col-md-4">
-<!--                    <ul class="social-media-icons">-->
-<!--                        <a href="https://www.facebook.com/Lumos-Eindhoven-Quidditch-754006641437774/"-->
-<!--                           class="social-icon"><i-->
-<!--                                    class="fab fa-facebook-f"></i></a>-->
-<!--                        <a href="https://www.instagram.com/lumoseindhoven/" class="social-icon"> <i-->
-<!--                                    class="far fa-instagram"></i></a>-->
-<!--                    </ul>-->
-                </div>
             </div>
         </div>
 

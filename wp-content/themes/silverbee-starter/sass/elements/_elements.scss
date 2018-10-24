@@ -48,4 +48,20 @@ figure {
 	background-color: rgba(255, 0, 0, 0.3);
 }
 
+.cta-button {
+	width: 100%;
+	text-align: center;
+	height: 53px;
+	line-height: 53px;
+
+	a, a:active, a:focus, a:hover, a:visited {
+		/*   font-weight: bold; */
+		background-color: $brand_primary;
+		color: #ffffff;
+		padding: 10px 30px;
+		font-size: 18pt;
+		text-decoration: none;
+	}
+}
+
 @import "tables";

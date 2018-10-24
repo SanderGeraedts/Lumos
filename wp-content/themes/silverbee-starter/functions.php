@@ -112,7 +112,7 @@ function silverbee_starter_scripts() {
 	wp_enqueue_script( 'silverbee-starter-script-popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js', array( 'jquery' ), 1.12, true );
 	wp_enqueue_script( 'silverbee-starter-script-bootstrap', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js', array( 'jquery' ), 4.0, true );
 
-	wp_enqueue_script( 'silverbee-starter-script', get_template_directory_uri() . '/js/silverbee.js', array( 'jquery' ), null  );
+	wp_enqueue_script( 'silverbee-starter-script', get_template_directory_uri() . '/js/silverbee.js', array( 'jquery' ), null );
 
 	wp_enqueue_style( 'silverbee-starter-style', get_template_directory_uri() . '/dist/css/style.css' );
 
@@ -164,3 +164,19 @@ remove_action( 'wp_head', 'wlwmanifest_link' );
  * Disable comments all together.
  */
 require get_template_directory() . '/inc/disable-comments.php';
+
+if ( function_exists( 'acf_add_options_page' ) ) {
+	acf_add_options_page( array(
+		'page_title' => 'Lumos Info'
+	) );
+}
+
+function my_acf_google_map_api( $api ){
+
+	$api['key'] = 'AIzaSyAHv4VvUMyehNIvq5HAFMfTHim3Pswp_p4';
+	$api['project'] = 'lumos-eindhoven-1536843011378';
+	return $api;
+
+}
+
+add_filter('acf/fields/google_map/api', 'my_acf_google_map_api');
