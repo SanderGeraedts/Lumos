@@ -33,14 +33,8 @@
   padding-bottom: 56px;
 }
 
-@media screen and (max-width: 767px) and (min-width: 356px) {
+@media screen and (max-width: 767px) {
   .site {
     padding-bottom: 112px;
-  }
-}
-
-@media screen and (max-width: 355px) {
-  .site {
-    padding-bottom: 168px;
   }
 }
