@@ -21,7 +21,6 @@
         color: black;
         margin: 0 10px;
 
-
       }
     }
   }
@@ -246,5 +245,27 @@
 
   .full-navigation {
     display: none;
+  }
+}
+
+.post-navigation {
+  height: 40px;
+  width: 100%;
+  position: relative;
+
+  .nav-previous, .nav-next {
+    position: absolute;
+
+    a {
+      font-size: 12pt;
+    }
+  }
+
+  .nav-previous {
+    right: 0;
+  }
+
+  .nav-next {
+    left: 0;
   }
 }
