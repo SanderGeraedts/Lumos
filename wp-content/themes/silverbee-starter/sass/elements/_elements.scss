@@ -54,14 +54,19 @@ figure {
 	height: 53px;
 	line-height: 53px;
 
-	a, a:active, a:focus, a:hover, a:visited {
+	a, a:active, a:focus, a:hover, a:visited, input[type="button"] {
 		/*   font-weight: bold; */
 		background-color: $brand_primary;
 		color: #ffffff;
 		padding: 10px 30px;
 		font-size: 18pt;
 		text-decoration: none;
+		box-shadow: none;
+		border-radius: 0;
+		border: 0;
 	}
+
+
 }
 
 @media screen and (max-width: 375px) {
