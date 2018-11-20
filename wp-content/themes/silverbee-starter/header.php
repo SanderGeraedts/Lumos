@@ -9,7 +9,13 @@
  * @package Silverbee_Starter
  */
 
-?><!doctype html>
+?>
+<!--
+Deze website is echt dolle pret. :smirk:
+
+Hi Laurent, Niels en Niels ;-)
+-->
+<!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
